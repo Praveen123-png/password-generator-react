@@ -1,9 +1,13 @@
 {
+  "homepage": "https://praveen123-png.github.io/password-generator-react",
   "name": "react-password-generator",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "react-script start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
