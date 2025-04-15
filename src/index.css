@@ -26,6 +26,7 @@ body{
   align-items: center;
   /* justify-content: center; */
   flex-direction: column;
+  overflow: auto;
 }
 
 .inputBox{
@@ -68,4 +69,20 @@ button:active{
 h3{
   text-align: center;
   margin-top: 2.5rem;
+  max-width: 23rem;
+  text-align: center;
+  /* word-break: break-all; */
+  word-wrap: break-word;
+}
+
+@media (max-width: 520px){
+  .container{
+    padding: 2rem;
+    width: 15rem;
+    height: 30rem;
+  }
+
+  h3{
+    max-width: 13rem;
+  }
 }

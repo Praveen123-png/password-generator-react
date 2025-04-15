@@ -61,7 +61,7 @@ function PasswordGenerator(){
 
         <div className="container">
 
-            <input className="inputBox" type="number" min={1} max={20} value={inputValue} onChange={inputValueHandler}/><br />
+            <input className="inputBox" type="number" min={1} max={1000} value={inputValue} onChange={inputValueHandler}/><br />
 
             <div className="selectionBox">
                 <input type="checkbox" id="toLowerCase" className="checkboxes"/>
