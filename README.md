@@ -20,15 +20,15 @@ If you are developing a production application, we recommend using TypeScript an
 
 Options to include:
 
- • Uppercase letters.
+   → Uppercase letters.
 
- • Lowercase letters.
+   → Lowercase letters.
 
- • Numbers.
+   → Numbers.
 
- • Special characters.
+   → Special characters.
 
- • Custom password length.
+   → Custom password length.
 
 • Built using React's useState for real-time updates.
 
